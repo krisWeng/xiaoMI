@@ -458,11 +458,11 @@
 	font-size: 12px;
 	text-align: right;
 }
-.picbtn{
+/*.picbtn{
 	width: 20px;
 	height: 10px;
 	display: inline-block;
-}
+}*/
 .circle{
 	width: 6px;
 	height: 6px;
@@ -472,13 +472,14 @@
 	margin: 0 5px;
 	background: rgba(0,0,0,0.4);
 	display: block;
+	float: left;
+	cursor: pointer;
+	position: relative;
+	right: -250px;
 }
 .circle:hover{
     background: rgba(255,255,255,0.4);
     border-color: rgba(0,0,0,0.4);
-}
-.circle{
-	cursor: pointer;
 }
 .active{
 	background: rgba(255,255,255,0.4);

@@ -329,24 +329,28 @@ var lastBox = [
         		}
         		
         		//向前
-			 	$('.content-Box02-List-circlebtn-left').click( function(){
+			 	$('.dot-Now').click( function(){
 			 		clearInterval(timer);
 			 		iNow--;
 			 		if(iNow < 0){
 			 			iNow = 1;
 			 			$('.content-Box02-goods-ul').css('transition','left 0.5s');
+        				$('.dot-Now').addClass('dot');
+        				$('.dot-Next').removeClass('dot');
 			 		}
 			 		console.log('前'+iNow);
 			 		changePic();
 			 	})
 			 	
 			 	//向后
-			 	$('.content-Box02-List-circlebtn-right').click( function(){
+			 	$('.dot-Next').click( function(){
 			 		clearInterval(timer);
 			 		iNow++;
 			 		if(iNow > 1){
 			 			iNow = 0;
 			 			$('.content-Box02-goods-ul').css('transition','left 0.5s');
+			 			$('.dot-Next').addClass('dot');
+			 			$('.dot-Now').removeClass('dot');
 			 		}
 			 		console.log('后'+iNow);
 			 		changePic();

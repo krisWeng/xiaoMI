@@ -429,28 +429,30 @@
     position: absolute;
     left: 575px;
 }
-.content-Box02-List-circlebtn{
+/*.content-Box02-List-circlebtn{
     width: 10px;
     height: 10px;	
 	display: inline-block;
     padding: 10px;
     margin: 0 2px;
 	background-color: transparent;
-}
+}*/
 .content-List-circlebtn-dot{    
 	width: 6px;
     height: 6px;
 	display: block;
     border: 2px solid #f5f5f5;
+    background: #b0b0b0;
     border-radius: 6px;
     text-align: left;
     text-indent: -9999em;
     overflow: hidden;
-    background: #b0b0b0;
+    float: left;
+    margin-left: 10px;
 }
-.dot-Now{
+.dot{
 	border: 2px solid #FF6700;
-	background:  #fff;
+	background: #fff;
 }
 .dot-Next:hover{
 	background: #FF6700;

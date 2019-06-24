@@ -104,8 +104,8 @@
 						</ul>
 					</a>	
 					<ul id="phoneList-btnbox">
-						<li class="picbtn"><a class="circle"></a></li>
-						<li class="picbtn"><a class="circle"></a></li>
+						<a class="circle "></a>
+						<a class="circle active"></a>
 					</ul>
 					<div id="phoneList-before"></div>
 					<div id="phoneList-next"></div>
@@ -167,37 +167,28 @@
 		</div>
 		
 		<script>
-			var PicBtn = document.getElementsByClassName( 'picBtn' );
-			var BigPic = document.getElementsByClassName( 'phoneList-bigPic' );
-			var circle = document.getElementsByClassName( 'circle' );
-			var Before = document.getElementById( 'phoneList-before' );
-			var Next = document.getElementById( 'phoneList-next' );
-			slider();
-			
-			function slider(){
-		 		
-				inter();
+			$(function(){
 				var iNow = 0;
 				var timer;
-				for(var i=0; i<PicBtn.length; i++){
-					console.log(i)
+				inter();
+				for(var i=0; i<$('.circle').length; i++){
 			 		bind(i)
 			 	}
 			 	function bind(index){
-				 	PicBtn[index].onclick = function(){
+				 	$('.circle').click(function(){
 				 		clearInterval(timer);
-				 		iNow = index;
-				 		console.log('点击'+index)
+				 		iNow = $('.circle').index(this);
 						changePic( index );
 						inter();
-				 	}
+				 	})
 				}
 			 	function changePic(){
-			 		for(var j=0; j<BigPic.length; j++){
-			 			BigPic[j].style.opacity = 0;
+			 		for(var j=0; j<$('.phoneList-bigPic').length; j++){
+			 			$('.phoneList-bigPic').eq(j).css('opacity','0');
 			 			if(j==iNow){
-			 				BigPic[iNow].style.opacity = 1;
-			 			}
+		 					$('.phoneList-bigPic').eq(iNow).css('opacity','1');
+			   				$('.circle').eq(iNow).addClass('active').siblings().removeClass('active');
+ 						}
 			 		}
 			 	}
 			 	//定时器
@@ -207,33 +198,32 @@
 			 			if(iNow>1){
 			 				iNow = 0;
 			 			}
-			 			console.log( '自动'+iNow )
-			 			changePic( iNow )
+			 			changePic( )
 			 		},2000)
 			 	}
 			 	//向前
-			 	Before.onclick = function(){
+			 	$('#phoneList-before').click(function(){
 			 		clearInterval(timer);
 			 		iNow--;
 			 		if(iNow<0){
-			 			iNow = BigPic.length-1;
+			 			iNow = $('.phoneList-bigPic').length-1;
 			 		}
 			 		console.log('前'+iNow);
 			 		changePic( iNow );
 			 		inter();
-			 	}
+			 	})
 			 	//向后
-			 	Next.onclick = function(){
+			 	$('#phoneList-next').click(function(){
 			 		clearInterval(timer);
 			 		iNow++;
-			 		if(iNow>BigPic.length-1){
+			 		if(iNow>$('.phoneList-bigPic').length-1){
 			 			iNow = 0;
 			 		}
 			 		console.log('后'+iNow);
 			 		changePic( iNow );
 			 		inter();
-			 	}
-			}
+			 	})
+			})
 		</script>
 			
 		<!---->
