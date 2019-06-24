@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>手机列表</title>
+		<script type="text/javascript" src="../indexJs/AllIcon.js" ></script>
+		<script type="text/javascript" src="../js/jquery.js" ></script>
+		<script type="text/javascript" src="../js/Allnav.js" ></script>
+		<script type="text/javascript" src="../indexJs/LastBox.js" ></script>
+		<script type="text/javascript" src="../PhoneListJs/phoneListAll.js" ></script>
+		<link rel="stylesheet" href="../commentCss/base.css" />
+		<link rel="stylesheet" href="../PhoneListCss/PhoneList.css" />
+		<link rel="stylesheet" href="../productContentCss/productContent.css" />
+		<link rel="stylesheet" href="../indexCss/index.css">
+		<link rel="stylesheet" href="../indexCss/AllIcon.css" />
+	</head>
+	<body>
+		<div id="nav" class="t nav-comment">
+			<div class="container c nav-comment">
+				<div class="nav-one nav-comment">
+					<a href="#" class="nav-a">小米商城</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">MIUI</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">loT</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">云服务</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">金融</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">有品</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">小爱开放广告</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">政企服务</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">资质证照</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">协议规则</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">下载app</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">Select Region</a>					
+				</div>
+				<div class="nav-two nav-comment">
+					<a href="#" class="nav-two-a">
+						<span class="iconfont two-i">&#xe60c;</span>
+						购物车
+						<span class="nav-two-p">(0)</span>
+					</a>
+					<div class="memu"></div>
+				</div>
+				<div class="nav-three nav-comment">
+					<a href="login.html" class="nav-a three-a">登录</a>
+					<span class="line">|</span>
+					<a href="register.html" class="nav-a">注册</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">消息通知</a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="header" class="t">
+			<div id="header" class="container c">
+				<div class="header-logo"><a href="index.html" class="header-logo-a"></a></div>
+				<div id="header" class="header-nav">
+					<ul class="nav-list">
+						<li class="list-one l">
+							<a href="#" class="list-p">
+								<span class="p-text">全部商品分类</span>
+							</a>
+							<div class="list-one-menu">
+								<ul class="list-first-level" style="background: white; border: 1px solid #FF6700;"><!--菜单栏一级菜单--></ul>
+							</div>
+						</li>
+						<!--导航栏一级菜单-->
+					</ul>
+				</div>
+				<div class="header-search">
+					<form class="search-form">
+						<input class="search-text" type="search" id="search" name="keyword" autocomplete="off" data-search-config="{'defaultWords':[{'Key':'小米6X','Rst':6},{'Key':'小米MIX&nbsp;2S','Rst':5},{'Key':'黑鲨游戏手机','Rst':3},{'Key':'红米Note&nbsp;5','Rst':6},{'Key':'红米5A','Rst':13},{'Key':'小米电视4C','Rst':5},{'Key':'电视32英寸','Rst':3},{'Key':'笔记本pro','Rst':5},{'Key':'空气净化器','Rst':11},{'Key':'净水器','Rst':8}]}">
+						<span class="iconfont form-span">&#xe615;</span>
+						<div class="form-hotWord">
+							<a href="#" class="hotWord-a">小米8</a>
+							<a href="#" class="hotWord-a">小米MIX 2S</a>
+						</div>
+						<div class="form-list">
+							<ul class="keyList"></ul>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<!---->
+		<div id="PhoneList-mainBox">
+			<!---->
+			<div class="phoneList-imgList AllBox-HW">
+				<div class="phoneList-BigPic-boxList c AllBox-HW">
+					<a href="#" style="display: block;"> 
+						<ul id="phonelsit-Allpicbox" class="AllBox-HW">
+							<li class="phoneList-bigPic AllBox-HW"><img src="../PhoneListImg/BigPic0.jpg" alt="" class="AllBox-HW" /></li>
+							<li class="phoneList-bigPic AllBox-HW"><img src="../PhoneListImg/BigPic1.jpg" alt="" class="AllBox-HW" /></li>
+						</ul>
+					</a>	
+					<ul id="phoneList-btnbox">
+						<li class="picbtn"><a class="circle"></a></li>
+						<li class="picbtn"><a class="circle"></a></li>
+					</ul>
+					<div id="phoneList-before"></div>
+					<div id="phoneList-next"></div>
+				</div>
+			</div>
+			<!---->
+			<div class="phoneList-All-title AllBox-width">
+				<h2>明星产品</h2>
+			</div>
+			<div class="phoneList-BigPicBox AllBox-width">
+				<div class="phoneBigPicBox-cell BigPic-shadow">
+					<div class="BoxPhonePic">
+						<a href="#">
+							<img src="../PhoneListImg/BoxBigPic.jpg" alt="" class="AllPicImg" />
+						</a>
+					</div>
+					<div class="BoxPhonePic-content">
+						<h3 class="BoxPhonePic-title">
+							<a href="#">
+								小米8 青春版
+							</a>
+						</h3>
+						<p class="BoxPhonePic-desc">潮流镜面渐变色，2400万自拍旗舰</p>
+						<p class="BoxPhonePic-price">
+							<b>1399</b>元起
+						</p>
+						<p class="BoxPhonePic-link">
+							<a href="#">了解产品</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!---->
+			<div class="phoneList-Box-Line AllBox-width"></div>
+			<div class="phoneList-phoneProductBox AllBox-width"></div>
+			<div class="phoneList-Box-Line AllBox-width"></div>
+			<div class="phoneList-phoneProductBox AllBox-width"></div>
+			<div class="phoneList-Box-Line AllBox-width"></div>
+			<div class="phoneList-phoneProductBox AllBox-width"></div>
+			
+			<div class="phoneList-Box-Line AllBox-width"></div>
+			<!---->
+			<div class="phoneList-All-title AllBox-width">
+				<h2>小米手机</h2>
+			</div>
+			<div class="phoneList-phoneProductBox AllBox-width"></div>
+			<div class="phoneList-Box-Line AllBox-width"></div>
+			<div class="phoneList-phoneProductBox AllBox-width"></div>
+			<div class="phoneList-Box-Line AllBox-width"></div>
+			<div class="phoneList-phoneProductBox AllBox-width"></div>
+			
+			<!---->
+			<div class="phoneList-All-title AllBox-width">
+				<h2>红米手机</h2>
+			</div>
+			<div class="phoneList-phoneProductBox AllBox-width"></div>
+			<div class="phoneList-Box-Line AllBox-width"></div>
+			<div class="phoneList-phoneProductBox AllBox-width"></div>
+		</div>
+		
+		<script>
+			var PicBtn = document.getElementsByClassName( 'picBtn' );
+			var BigPic = document.getElementsByClassName( 'phoneList-bigPic' );
+			var circle = document.getElementsByClassName( 'circle' );
+			var Before = document.getElementById( 'phoneList-before' );
+			var Next = document.getElementById( 'phoneList-next' );
+			slider();
+			
+			function slider(){
+		 		
+				inter();
+				var iNow = 0;
+				var timer;
+				for(var i=0; i<PicBtn.length; i++){
+					console.log(i)
+			 		bind(i)
+			 	}
+			 	function bind(index){
+				 	PicBtn[index].onclick = function(){
+				 		clearInterval(timer);
+				 		iNow = index;
+				 		console.log('点击'+index)
+						changePic( index );
+						inter();
+				 	}
+				}
+			 	function changePic(){
+			 		for(var j=0; j<BigPic.length; j++){
+			 			BigPic[j].style.opacity = 0;
+			 			if(j==iNow){
+			 				BigPic[iNow].style.opacity = 1;
+			 			}
+			 		}
+			 	}
+			 	//定时器
+			 	function inter(){
+			 		timer = setInterval(function(){
+			 			iNow++;
+			 			if(iNow>1){
+			 				iNow = 0;
+			 			}
+			 			console.log( '自动'+iNow )
+			 			changePic( iNow )
+			 		},2000)
+			 	}
+			 	//向前
+			 	Before.onclick = function(){
+			 		clearInterval(timer);
+			 		iNow--;
+			 		if(iNow<0){
+			 			iNow = BigPic.length-1;
+			 		}
+			 		console.log('前'+iNow);
+			 		changePic( iNow );
+			 		inter();
+			 	}
+			 	//向后
+			 	Next.onclick = function(){
+			 		clearInterval(timer);
+			 		iNow++;
+			 		if(iNow>BigPic.length-1){
+			 			iNow = 0;
+			 		}
+			 		console.log('后'+iNow);
+			 		changePic( iNow );
+			 		inter();
+			 	}
+			}
+		</script>
+			
+		<!---->
+		<div id="footer c">
+			<div class="container c">
+				<div class="footer-container-first">
+					<ul class="footer-list-first">
+						<li class="footer-first-li l">
+							<svg class="icon footer-icon" aria-hidden="true">
+							    <use xlink:href="#icon-buoumaotubiao46"></use>
+							</svg>
+							<a href="" class="footer-first-a">预约维修服务</a>
+						</li>
+						<li class="footer-first-li l">
+							<svg class="icon footer-icon" aria-hidden="true">
+							    <use xlink:href="#icon-7tianwuliyoutuihuo"></use>
+							</svg>
+							<a href="" class="footer-first-a">7天无理由退货</a>
+						</li>
+						<li class="footer-first-li l">
+							<svg class="icon footer-icon" aria-hidden="true">
+							    <use xlink:href="#icon-15tianwuliyoutuihuo"></use>
+							</svg>
+							<a href="" class="footer-first-a">15天免费换货</a>
+						</li>
+						<li class="footer-first-li l">
+							<svg class="icon footer-icon" aria-hidden="true">
+							    <use xlink:href="#icon-liwu"></use>
+							</svg>
+							<a href="" class="footer-first-a">满150元包邮</a>
+						</li>
+						<li class="footer-first-li l">
+							<svg class="icon footer-icon" aria-hidden="true">
+							    <use xlink:href="#icon-location"></use>
+							</svg>
+							<a href="" class="footer-first-a">520余家售后网点</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-container-seconde">
+					<div class="footer-phoneNum r">
+						<p class="footer-phone">400-100-5678</p>
+						<p class="footer-time">周一至周日 8:00-18:00<br />（仅收市话费）</p>
+						<a href="#" class="footer-phone-help">联系客服</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!---->
+		<div id="lastBox">
+			<div class="container c" style="position: relative;">
+				<div class="lastBox-logo"></div>
+				<div class="info-text">
+					<p class="lastBox-first">
+						<a href="#" class="last-a">小米商城</a>
+					</p>
+					<p class="lastBox-second">
+						©<a href="#">mi.com</a>
+						京ICP证110507号
+						<a href="#">京ICP备10046444号</a>
+						<a href="#">京公网安备11010802020134号 </a>
+						<a href="#">京网文[2017]1530-131号</a>
+						<br />
+						<a href="#">（京）网械平台备字（2018）第00005号</a>
+						<a href="#">互联网药品信息服务资格证 (京) -非经营性-2014-0090</a>
+						<a href="#">营业执照</a>
+						<a href="#">医疗器械公告</a>
+						<br />
+						<a href="#">增值电信业务许可证</a>
+						  网络食品经营备案（京）【2018】WLSPJYBAHF-12 
+						<a href="#">食品经营许可证</a>
+						<br />
+						违法和不良信息举报电话：185-0130-1238 
+						<a href="#">知识产权侵权投诉</a>
+						 本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+					</p>
+				</div>
+				<div class="lastBox-imgList"></div>
+			</div>
+			<div class="lastBox-sLogan"></div>
+		</div>
+	</body>
+</html>

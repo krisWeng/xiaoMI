@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<script type="text/javascript" src="indexJs/AllIcon.js" ></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="indexJs/nav.js" ></script>
+		<script type="text/javascript" src="indexJs/Big horizontal rotation.js" ></script>
+		<script type="text/javascript" src="indexJs/AllBox.js" ></script>
+		<script type="text/javascript" src="indexJs/AllSmallBox.js" ></script>
+		<script type="text/javascript" src="indexJs/LastBox.js" ></script>
+		<link rel="stylesheet" href="commentCss/base.css" />
+		<link rel="stylesheet" href="indexCss/index.css">
+		<link rel="stylesheet" href="indexCss/AllIcon.css" />
+	</head>
+	<body>
+		<!--顶部-->
+		<div id="nav" class="t nav-comment">
+			<div class="container c nav-comment">
+				<div class="nav-one nav-comment">
+					<a href="#" class="nav-a">小米商城</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">MIUI</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">loT</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">云服务</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">金融</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">有品</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">小爱开放广告</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">政企服务</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">资质证照</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">协议规则</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">下载app</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">Select Region</a>					
+				</div>
+				<div class="nav-two nav-comment">
+					<a href="#" class="nav-two-a">
+						<span class="iconfont two-i">&#xe60c;</span>
+						购物车
+						<span class="nav-two-p">(0)</span>
+					</a>
+					<div class="memu"></div>
+				</div>
+				<div class="nav-three nav-comment">
+					<a href="login.html" class="nav-a three-a">登录</a>
+					<span class="line">|</span>
+					<a href="register.html" class="nav-a">注册</a>
+					<span class="line">|</span>
+					<a href="#" class="nav-a">消息通知</a>
+				</div>
+			</div>
+		</div>
+		
+		<!--吸顶导航栏-->
+		<div id="TopNav" class="t">
+			<div id="TopNavC" class="c">
+				<ul class="TopNav-ul">
+					<li class="TopNav-ul-li"><a href="productList.html">小米手机</a></li>
+					<li class="TopNav-ul-li"><a href="#">红米</a></li>
+					<li class="TopNav-ul-li"><a href="#">电视</a></li>
+					<li class="TopNav-ul-li"><a href="#">笔记本</a></li>
+					<li class="TopNav-ul-li"><a href="#">家电</a></li>
+					<li class="TopNav-ul-li"><a href="#">新品</a></li>
+					<li class="TopNav-ul-li"><a href="#">路由器</a></li>
+					<li class="TopNav-ul-li"><a href="#">智能硬件</a></li>
+					<li class="TopNav-ul-li"><a href="#">服务</a></li>
+					<li class="TopNav-ul-li"><a href="#">社区</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--返回顶部-->
+		<div class="back-right">
+			<div class="back-top-right">
+				<ul class="back-top-ul">
+					<li class="back-top">
+						<a href="#">
+							<svg class="icon back-top-icon" aria-hidden="true">
+						    	<use xlink:href="#icon-phone"></use>
+							</svg>
+						</a>
+						<div class="iconAll">
+							<div class="icon-content">
+								<img src="indexImg/weChat.png" alt="" />
+								<p class="icon-p">手机扫一扫一分赢好礼</p>
+							</div>
+							<div class="icon-right icon-content-right">
+								<img src="indexImg/right.png"/>
+							</div>
+						</div>						
+					</li>
+					<li class="back-top">
+						<a href="#">
+							<svg class="icon back-top-icon" aria-hidden="true">
+						    	<use xlink:href="#icon-user"></use>
+							</svg>
+						</a>
+						<div class="iconAll iconAll-user">
+							<div class="icon-content-p">
+								<p class="icon-Allp">个人中心</p>
+							</div>
+							<div class="icon-right icon-user-right">
+								<img src="indexImg/right.png"/>
+							</div>
+						</div>
+					</li>
+					<li class="back-top">
+						<a href="#">
+							<svg class="icon back-top-icon" aria-hidden="true">
+						    	<use xlink:href="#icon-kefu"></use>
+							</svg>
+						</a>
+						<div class="iconAll iconAll-help">
+							<div class="icon-content-p">
+								<p class="icon-Allp">联系客服</p>
+							</div>
+							<div class="icon-right icon-help-right">
+								<img src="indexImg/right.png"/>
+							</div>
+						</div>
+					</li>
+					<li class="back-top">
+						<a href="#">
+							<svg class="icon back-top-icon" aria-hidden="true">
+						    	<use xlink:href="#icon-gouwuche"></use>
+							</svg>
+						</a>
+						<div class="iconAll iconAll-car">
+							<div class="icon-content-p">
+								<p class="icon-Allp">购物车</p>
+							</div>
+							<div class="icon-right icon-car-right">
+								<img src="indexImg/right.png"/>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<a href="#" class="backTOP-a" id="backTop-a-id">
+				<svg class="icon back-top-icon" aria-hidden="true">
+				    <use xlink:href="#icon-top"></use>
+				</svg>
+				<div class="iconAll iconAll-top">
+					<div class="icon-content-p">
+						<p class="icon-Allp">返回顶部</p>
+					</div>
+					<div class="icon-right icon-top-right">
+						<img src="indexImg/right.png"/>
+					</div>
+				</div>
+			</a>
+		</div>
+		<script>			
+			var oNav = document.getElementById('TopNav');
+			var backTop = document.getElementById('backTop-a-id');			
+			document.onscroll = function(){
+				var Btop = document.body.scrollTop || document.documentElement.scrollTop;
+				// 如果滚动距离大于导航条据顶部的距离
+				if( Btop > 140 ) {
+				    // 为导航条设置fix
+				    oNav.style.display = "block";
+				    oNav.style.position = "fixed";
+				    oNav.style.top = 0;
+				    backTop.style.display = "block";
+				}else {
+					oNav.style.position = "static";
+					oNav.style.display = "none";
+					backTop.style.display = "none";
+				} 
+			}		
+		</script>
+		
+		<!--导航栏-->
+		<div id="header" class="t">
+			<div id="header" class="container c">
+				<div class="header-logo"><a href="#" class="header-logo-a"></a></div>
+				<div id="header" class="header-nav">
+					<ul class="nav-list">
+						<li class="list-one l">
+							<div class="list-one-menu">
+								<ul class="list-first-level"><!--菜单栏一级菜单--></ul>
+							</div>
+						</li>
+						<!--导航栏一级菜单-->
+					</ul>
+				</div>
+				<div class="header-search">
+					<form class="search-form">
+						<input class="search-text" type="search" id="search" name="keyword" autocomplete="off" data-search-config="{'defaultWords':[{'Key':'小米6X','Rst':6},{'Key':'小米MIX&nbsp;2S','Rst':5},{'Key':'黑鲨游戏手机','Rst':3},{'Key':'红米Note&nbsp;5','Rst':6},{'Key':'红米5A','Rst':13},{'Key':'小米电视4C','Rst':5},{'Key':'电视32英寸','Rst':3},{'Key':'笔记本pro','Rst':5},{'Key':'空气净化器','Rst':11},{'Key':'净水器','Rst':8}]}">
+						<span class="iconfont form-span">&#xe615;</span>
+						<div class="form-hotWord">
+							<a href="#" class="hotWord-a">小米8</a>
+							<a href="#" class="hotWord-a">小米MIX 2S</a>
+						</div>
+						<div class="form-list">
+							<ul class="keyList"></ul>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<!--菜单栏-->
+		<div id="box" class="c">
+			<div class="box-box1 c">
+				<a href="#" style="display: block;"> 
+					<ul id="picbox">
+						<li class="bigPic"><img src="indexImg/carousel00.jpg" alt="" /></li>
+						<li class="bigPic"><img src="indexImg/carousel01.jpg" alt="" /></li>
+						<li class="bigPic"><img src="indexImg/carousel02.jpg" alt="" /></li>
+						<li class="bigPic"><img src="indexImg/carousel03.jpg" alt="" /></li>
+						<li class="bigPic"><img src="indexImg/carousel04.jpg" alt="" /></li
+					</ul>
+				</a>	
+				<ul id="btnbox">
+					<li class="picbtn"><a class="circle"></a></li>
+					<li class="picbtn"><a class="circle"></a></li>
+					<li class="picbtn"><a class="circle"></a></li>
+					<li class="picbtn"><a class="circle"></a></li>
+					<li class="picbtn"><a class="circle"></a></li>
+				</ul>
+				<div id="before"></div>
+				<div id="next"></div>
+			</div>
+			<div class="box-box2">
+				<div class="box2-left">
+					<ul class="box2-left-function"></ul>
+				</div>
+				<div class="box2-right">
+					<ul class="rignt-img"></ul>
+				</div>
+			</div>
+		</div>
+		<script>
+			var oPicBtn = document.getElementsByClassName( 'picbtn' );
+			var circle = document.getElementsByClassName( 'circle' );
+			var oBigPic = document.getElementsByClassName( 'bigPic' );
+			var oBefore = document.getElementById( 'before' );
+			var oNext = document.getElementById( 'next' );
+			slider();
+			
+			function slider(){
+				inter();
+				var iNow = 0;
+				var timer;
+				for(var i=0; i < oPicBtn.length; i++){
+//					console.log(i);
+			   		bind(i);
+			   }
+			   	function bind(index){
+				 	oPicBtn[index].onclick = function(){
+				 		clearInterval(timer);
+				 		iNow = index;
+//				 		console.log('点击'+index);
+						changePic( index );
+						inter();
+				 	}
+				}
+			   	function changePic(){
+			   		for(var j=0; j<oBigPic.length; j++){
+			   			oBigPic[j].style.opacity = 0;
+			   			if(j==iNow){
+			   				oBigPic[iNow].style.opacity = 1;
+			   			}
+			   		}
+			   	}
+			 	//定时器
+			 	function inter(){
+			 		timer = setInterval(function(){
+			 			iNow++;
+			 			if(iNow>4){
+			 				iNow = 0;
+			 			}
+//			 			console.log( '自动'+iNow );
+			 			changePic()
+			 		},2000)
+			 	}
+			 	//向前
+			   	oBefore.onclick = function(){
+			   		clearInterval(timer);
+			   		iNow--;
+			   		if(iNow<0){
+			   			iNow = oBigPic.length-1;
+			   		}
+//			   		console.log('前'+iNow);
+			   		changePic( iNow );
+			   		inter();
+			   	}
+			    //向后
+			   	oNext.onclick = function(){
+			   		clearInterval(timer);
+			   		iNow++;
+			   		if(iNow>oBigPic.length-1){
+			   			iNow = 0;
+			   		}
+//			   		console.log('后'+iNow);
+			   		changePic( iNow );
+			   		inter();
+			   	}
+			}
+		</script>
+		
+		<!--小米闪购-->
+		<div id="box2" class="c">
+			<div class="box2-hd">
+				<h2 class="box2-title">小米闪购</h2>
+				<div class="box2-more">
+					<button class="box2-more-btn l left">
+						<svg class="icon btn-a-icon" aria-hidden="true">
+						    <use xlink:href="#icon-iconfontzhizuobiaozhun023126"></use>
+						</svg>
+					</button>
+					<button class="box2-more-btn r right">
+						<svg class="icon btn-a-icon" aria-hidden="true">
+						    <use xlink:href="#icon-jiantou3"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+			<div class="box2-bd">
+				<div class="box2-list">
+					<ul class="box2-list-ul">
+						<li class="box2-list-li">
+							<div class="timeTitle">20:00 场</div>
+							<img src="indexImg/liTime.png" class="box2-list-li-img" />
+							<div class="li-end">距离结束还有</div>
+							<div class="Cuntdown">
+								<div class="timeBox h">00</div>
+								<div class="dosh">:</div>
+								<div class="timeBox m">00</div>
+								<div class="dosh">:</div>
+								<div class="timeBox" id="s">00</div>
+							</div>
+						</li>
+					</ul>
+					<div class="box2-box-imgList">
+						<ul class="imgList-ul"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script>
+			var i = 60;
+			var oTime = document.getElementById('s');
+			var timer = setInterval(function(){
+				i--;
+				var str = i
+				oTime.innerHTML = str;
+				if( i<=0 ){
+					clearInterval(timer);
+				}
+			},1000)
+		</script>
+		
+		<div id="boxImg" class="c">
+			<a href="#">
+				<img src="indexImg/BigPic01.jpg" />
+			</a>
+		</div>
+		
+		<!-------->
+		<div id="Bbox">
+			<div id="Cbox">
+				
+				<!--手机-->
+				<div id="phone" class="Bbox-AllBox">
+					<div class="bTOP">
+						<h2 class="bTOP-title">手机</h2>
+						<div class="bTOP-right">
+							<a href="#" class="bTOP-right-a">
+								查看全部
+								<svg class="icon" aria-hidden="true">
+								    <use xlink:href="#icon-jiantou-you-cuxiantiao-fill"></use>
+								</svg>
+							</a>
+						</div>
+					</div>
+					<div class="phone-list">
+						<div class="row">
+							<div class="phone-BigPic">
+								<ul class="phone-BigPic-ul">
+									<li class="BigPic-ul-li Phone-li">
+										<a href="#" class="BigPic-ul-li-a">
+											<img src="indexImg/phoneBigPic.jpg" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="phone-list-content">
+								<ul class="list-content-ul"></ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="boxImg" class="c">
+					<a href="#">
+						<img src="indexImg/BigPic02.jpg" />
+					</a>
+				</div>
+				
+				<!--家电-->
+				<div id="homeelec" class="Bbox-AllBox">
+					<div class="bTOP">
+						<h2 class="bTOP-title">家电</h2>
+						<div class="bTOP-right-list">
+							<ul class="tab-list">
+								<li class="tab-list-li l home-hot">热门</li>
+								<li class="l home-tv">电视影音</li>
+								<li class="l home-computer">电脑</li>
+								<li class="l home-home">家居</li>
+							</ul>
+						</div>
+					</div>
+					<div class="Allbox-list">
+						<div class="row">
+							<div class="AllBox-BigPic">
+								<ul class="AllBox-BigPic-ul">
+									<li class="box-list-ul-li l Phone-li">
+										<a href="#" class="LeftPic-ul-li-a">
+											<img src="indexImg/homeelecLeft01.jpg" />
+										</a>
+									</li>
+									<li class="box-list-ul-li l Phone-li">
+										<a href="#" class="LeftPic-ul-li-a">
+											<img src="indexImg/homeelecLeft02.jpg" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="AllBox-list-content">
+								<ul class="AllBox-list-content-ul hotBox home-hotBox" style="display: block;">
+									<!--<li class="list-content-ul-li small"></li>
+									<li class="list-content-ul-li small"></li>-->
+								</ul>
+								<ul class="AllBox-list-content-ul TVBox home-TVBox" style="display: none;"></ul>
+								<ul class="AllBox-list-content-ul ComputerBox home-ComputerBox" style="display: none;"></ul>
+								<ul class="AllBox-list-content-ul homeBox home-homeBox" style="display: none;"></ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="boxImg" class="c">
+					<a href="#">
+						<img src="indexImg/BigPic03.jpg" />
+					</a>
+				</div>
+				
+				<!--智能-->
+				<div id="smart" class="Bbox-AllBox">
+					<div class="bTOP">
+						<h2 class="bTOP-title">智能</h2>
+						<div class="bTOP-right-list">
+							<ul class="tab-list">
+								<li class="tab-list-li l smart-hot">热门</li>
+								<li class="l smart-tv">电视影音</li>
+								<li class="l smart-computer">电脑</li>
+								<li class="l smart-home">家居</li>
+							</ul>
+						</div>
+					</div>
+					<div class="Allbox-list">
+						<div class="row">
+							<div class="AllBox-BigPic">
+								<ul class="AllBox-BigPic-ul">
+									<li class="box-list-ul-li l Phone-li">
+										<a href="#" class="LeftPic-ul-li-a">
+											<img src="indexImg/homeelecLeft01.jpg" />
+										</a>
+									</li>
+									<li class="box-list-ul-li l Phone-li">
+										<a href="#" class="LeftPic-ul-li-a">
+											<img src="indexImg/homeelecLeft02.jpg" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="AllBox-list-content">
+								<ul class="AllBox-list-content-ul hotBox smart-hotBox">
+									<!--<li class="list-content-ul-li small"></li>
+									<li class="list-content-ul-li small"></li>-->
+								</ul>
+								<ul class="AllBox-list-content-ul TVBox smart-TVBox" style="display: none;"></ul>
+								<ul class="AllBox-list-content-ul ComputerBox smart-ComputerBox" style="display: none;"></ul>
+								<ul class="AllBox-list-content-ul homeBox smart-homeBox" style="display: none;"></ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="boxImg" class="c">
+					<a href="#">
+						<img src="indexImg/BigPic04.jpg" />
+					</a>
+				</div>
+				
+				<!--搭配-->
+				<div id="match" class="Bbox-AllBox">
+					<div class="bTOP">
+						<h2 class="bTOP-title">搭配</h2>
+						<div class="bTOP-right-list">
+							<ul class="tab-list">
+								<li class="tab-list-li l match-hot">热门</li>
+								<li class="l match-tv">电视影音</li>
+								<li class="l match-computer">电脑</li>
+								<li class="l match-home">家居</li>
+							</ul>
+						</div>
+					</div>
+					<div class="Allbox-list">
+						<div class="row">
+							<div class="AllBox-BigPic">
+								<ul class="AllBox-BigPic-ul">
+									<li class="box-list-ul-li l Phone-li">
+										<a href="#" class="LeftPic-ul-li-a">
+											<img src="indexImg/homeelecLeft01.jpg" />
+										</a>
+									</li>
+									<li class="box-list-ul-li l Phone-li">
+										<a href="#" class="LeftPic-ul-li-a">
+											<img src="indexImg/homeelecLeft02.jpg" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="AllBox-list-content">
+								<ul class="AllBox-list-content-ul hotBox match-hotBox">
+									<!--<li class="list-content-ul-li small"></li>
+									<li class="list-content-ul-li small"></li>-->
+								</ul>
+								<ul class="AllBox-list-content-ul TVBox match-TVBox" style="display: none;"></ul>
+								<ul class="AllBox-list-content-ul ComputerBox match-ComputerBox" style="display: none;"></ul>
+								<ul class="AllBox-list-content-ul homeBox match-homeBox" style="display: none;"></ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="boxImg" class="c">
+					<a href="#">
+						<img src="indexImg/BigPic05.jpg" />
+					</a>
+				</div>
+				
+				<!--配件-->
+				<div id="accessories" class="Bbox-AllBox">
+					<div class="bTOP">
+						<h2 class="bTOP-title">配件</h2>
+						<div class="bTOP-right-list">
+							<ul class="tab-list">
+								<li class="tab-list-li l accessories-hot">热门</li>
+								<li class="l accessories-tv">电视影音</li>
+								<li class="l accessories-computer">电脑</li>
+								<li class="l accessories-home">家居</li>
+							</ul>
+						</div>
+					</div>
+					<div class="Allbox-list">
+						<div class="row">
+							<div class="AllBox-BigPic">
+								<ul class="AllBox-BigPic-ul">
+									<li class="box-list-ul-li l Phone-li">
+										<a href="#" class="LeftPic-ul-li-a">
+											<img src="indexImg/homeelecLeft01.jpg" />
+										</a>
+									</li>
+									<li class="box-list-ul-li l Phone-li">
+										<a href="#" class="LeftPic-ul-li-a">
+											<img src="indexImg/homeelecLeft02.jpg" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="AllBox-list-content">
+								<ul class="AllBox-list-content-ul hotBox accessories-hotBox">
+									<!--<li class="list-content-ul-li small"></li>
+									<li class="list-content-ul-li small"></li>-->
+								</ul>
+								<ul class="AllBox-list-content-ul TVBox accessories-TVBox" style="display: none;"></ul>
+								<ul class="AllBox-list-content-ul ComputerBox accessories-ComputerBox" style="display: none;"></ul>
+								<ul class="AllBox-list-content-ul homeBox accessories-homeBox" style="display: none;"></ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="boxImg" class="c">
+					<a href="#">
+						<img src="indexImg/BigPic06.jpg" />
+					</a>
+				</div>
+				
+				<!--周边-->
+				<div id="around" class="Bbox-AllBox">
+					<div class="bTOP">
+						<h2 class="bTOP-title">周边</h2>
+						<div class="bTOP-right-list">
+							<ul class="tab-list">
+								<li class="tab-list-li l around-hot">热门</li>
+								<li class="l around-tv">电视影音</li>
+								<li class="l around-computer">电脑</li>
+								<li class="l around-home">家居</li>
+							</ul>
+						</div>
+					</div>
+					<div class="Allbox-list">
+						<div class="row">
+							<div class="AllBox-BigPic">
+								<ul class="AllBox-BigPic-ul">
+									<li class="box-list-ul-li l Phone-li">
+										<a href="#" class="LeftPic-ul-li-a">
+											<img src="indexImg/homeelecLeft01.jpg" />
+										</a>
+									</li>
+									<li class="box-list-ul-li l Phone-li">
+										<a href="#" class="LeftPic-ul-li-a">
+											<img src="indexImg/homeelecLeft02.jpg" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="AllBox-list-content">
+								<ul class="AllBox-list-content-ul hotBox around-hotBox">
+									<!--<li class="list-content-ul-li small"></li>
+									<li class="list-content-ul-li small"></li>-->
+								</ul>
+								<ul class="AllBox-list-content-ul TVBox around-TVBox" style="display: none;"></ul>
+								<ul class="AllBox-list-content-ul ComputerBox around-ComputerBox" style="display: none;"></ul>
+								<ul class="AllBox-list-content-ul homeBox around-homeBox" style="display: none;"></ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="boxImg" class="c">
+					<a href="#">
+						<img src="indexImg/BigPic07.jpg" />
+					</a>
+				</div>
+				
+				<!--为你推荐-->
+				<div id="recommend" class="sBox-AllBox">
+					<div class="box2-hd">
+						<h2 class="box2-title">为你推荐</h2>
+						<div class="box2-more">
+							<a class="box2-more-a l left">
+								<svg class="icon a-icon" aria-hidden="true">
+								    <use xlink:href="#icon-iconfontzhizuobiaozhun023126"></use>
+								</svg>
+							</a>
+							<a class="box2-more-a r right">
+								<svg class="icon a-icon" aria-hidden="true">
+								    <use xlink:href="#icon-jiantou3"></use>
+								</svg>
+							</a>
+						</div>
+					</div>
+					<div class="recommend-bd">
+						<div class="recommend-list">
+							<div class="recommend-box-imgList">
+								<ul class="recomm-imgList-ul"></ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!--热评产品-->
+				<div id="comment" class="sBox-AllBox">
+					<div class="box2-hd">
+						<h2 class="box2-title">热评产品</h2>
+					</div>
+					<div class="comment-imgBox">
+						<ul class="comm-imgBox-ul"></ul>
+					</div>
+				</div>
+				
+				<!--内容-->
+				<div id="content" class="sBox-AllBox">
+					<div class="box2-hd">
+						<h2 class="box2-title">内容</h2>
+					</div>
+					<div class="content-ListBox">
+						<ul class="content-ListBox-ul">
+							<li class="con-ul-li con-book">
+								<h2 class="con-title">图书</h2>
+								<div class="con-BoxCont">
+									<ul class="conBox-List bookList"></ul>
+								</div>
+								<div class="con-Box-circle">
+									<ul class="circle-List">
+										<li class="con-List-circle l circleOne Bookcircle">
+											<span class="List-dot"></span>
+										</li>
+										<li class="con-List-circle l circleTwo Bookcircle">
+											<span class="List-dot"></span>
+										</li>
+										<li class="con-List-circle l circleThree Bookcircle">
+											<span class="List-dot"></span>
+										</li>
+									</ul>
+								</div>
+								<div class="conBox-btn">
+									<a class="l btn-a btn-left book-left">
+										<svg class="icon a-icon" aria-hidden="true">
+										    <use xlink:href="#icon-iconfontzhizuobiaozhun023126"></use>
+										</svg>
+									</a>
+									<a class="l btn-a btn-right book-right">
+										<svg class="icon a-icon" aria-hidden="true">
+										    <use xlink:href="#icon-jiantou3"></use>
+										</svg>
+									</a>
+								</div>
+							</li>
+							
+							<li class="con-ul-li con-theme">
+								<h2 class="con-title">MIUI主题</h2>
+								<div class="con-BoxCont">
+									<ul class="conBox-List themeList"></ul>
+								</div>
+								<div class="con-Box-circle">
+									<ul class="circle-List">
+										<li class="con-List-circle l circleOne themecircle">
+											<span class="List-dot"></span>
+										</li>
+										<li class="con-List-circle l circleTwo themecircle">
+											<span class="List-dot"></span>
+										</li>
+										<li class="con-List-circle l circleThree themecircle">
+											<span class="List-dot"></span>
+										</li>
+									</ul>
+								</div>
+								<div class="conBox-btn">
+									<a class="l btn-a btn-left theme-left">
+										<svg class="icon a-icon" aria-hidden="true">
+										    <use xlink:href="#icon-iconfontzhizuobiaozhun023126"></use>
+										</svg>
+									</a>
+									<a class="l btn-a btn-right theme-right">
+										<svg class="icon a-icon" aria-hidden="true">
+										    <use xlink:href="#icon-jiantou3"></use>
+										</svg>
+									</a>
+								</div>
+							</li>
+							<li class="con-ul-li con-game">
+								<h2 class="con-title">游戏</h2>
+								<div class="con-BoxCont">
+									<ul class="conBox-List gameList"></ul>
+								</div>
+								<div class="con-Box-circle">
+									<ul class="circle-List">
+										<li class="con-List-circle l circleOne gamecircle">
+											<span class="List-dot"></span>
+										</li>
+										<li class="con-List-circle l circleTwo gamecircle">
+											<span class="List-dot"></span>
+										</li>
+										<li class="con-List-circle l circleThree gamecircle">
+											<span class="List-dot"></span>
+										</li>
+									</ul>
+								</div>
+								<div class="conBox-btn">
+									<a class="l btn-a btn-left game-Left">
+										<svg class="icon a-icon" aria-hidden="true">
+										    <use xlink:href="#icon-iconfontzhizuobiaozhun023126"></use>
+										</svg>
+									</a>
+									<a class="l btn-a btn-right game-right">
+										<svg class="icon a-icon" aria-hidden="true">
+										    <use xlink:href="#icon-jiantou3"></use>
+										</svg>
+									</a>
+								</div>
+							</li>
+							<li class="con-ul-li con-app">
+								<h2 class="con-title">应用</h2>
+								<div class="con-BoxCont">
+									<ul class="conBox-List appList"></ul>
+								</div>
+								<div class="con-Box-circle">
+									<ul class="circle-List">
+										<li class="con-List-circle l circleOne appcircle">
+											<span class="List-dot"></span>
+										</li>
+										<li class="con-List-circle l circleTwo appcircle">
+											<span class="List-dot"></span>
+										</li>
+										<li class="con-List-circle l circleThree appcircle">
+											<span class="List-dot"></span>
+										</li>
+									</ul>
+								</div>
+								<div class="conBox-btn">
+									<a class="l btn-a btn-left app-Left">
+										<svg class="icon conBox-a-icon" aria-hidden="true">
+										    <use xlink:href="#icon-iconfontzhizuobiaozhun023126"></use>
+										</svg>
+									</a>
+									<a class="l btn-a btn-right app-right">
+										<svg class="icon conBox-a-icon" aria-hidden="true">
+										    <use xlink:href="#icon-jiantou3"></use>
+										</svg>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<!--视频-->
+				<div id="video" class="sBox-AllBox">
+					<div class="bTOP">
+						<h2 class="bTOP-title">视频</h2>
+						<div class="bTOP-right">
+							<a href="#" class="bTOP-right-a">
+								查看全部
+								<svg class="icon" aria-hidden="true">
+								    <use xlink:href="#icon-jiantou-you-cuxiantiao-fill"></use>
+								</svg>
+							</a>
+						</div>
+					</div>
+					<div class="video-ListBox">
+						<ul class="video-ListBox-ul"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!---->
+		<div id="footer c">
+			<div class="container c">
+				<div class="footer-container-first">
+					<ul class="footer-list-first">
+						<li class="footer-first-li l">
+							<svg class="icon footer-icon" aria-hidden="true">
+							    <use xlink:href="#icon-buoumaotubiao46"></use>
+							</svg>
+							<a href="" class="footer-first-a">预约维修服务</a>
+						</li>
+						<li class="footer-first-li l">
+							<svg class="icon footer-icon" aria-hidden="true">
+							    <use xlink:href="#icon-7tianwuliyoutuihuo"></use>
+							</svg>
+							<a href="" class="footer-first-a">7天无理由退货</a>
+						</li>
+						<li class="footer-first-li l">
+							<svg class="icon footer-icon" aria-hidden="true">
+							    <use xlink:href="#icon-15tianwuliyoutuihuo"></use>
+							</svg>
+							<a href="" class="footer-first-a">15天免费换货</a>
+						</li>
+						<li class="footer-first-li l">
+							<svg class="icon footer-icon" aria-hidden="true">
+							    <use xlink:href="#icon-liwu"></use>
+							</svg>
+							<a href="" class="footer-first-a">满150元包邮</a>
+						</li>
+						<li class="footer-first-li l">
+							<svg class="icon footer-icon" aria-hidden="true">
+							    <use xlink:href="#icon-location"></use>
+							</svg>
+							<a href="" class="footer-first-a">520余家售后网点</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-container-seconde">
+					<div class="footer-phoneNum r">
+						<p class="footer-phone">400-100-5678</p>
+						<p class="footer-time">周一至周日 8:00-18:00<br />（仅收市话费）</p>
+						<a href="#" class="footer-phone-help">联系客服</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!---->
+		<div id="lastBox">
+			<div class="container c" style="position: relative;">
+				<div class="lastBox-logo"></div>
+				<div class="info-text">
+					<p class="lastBox-first">
+						<a href="#" class="last-a">小米商城</a>
+					</p>
+					<p class="lastBox-second">
+						©<a href="#">mi.com</a>
+						京ICP证110507号
+						<a href="#">京ICP备10046444号</a>
+						<a href="#">京公网安备11010802020134号 </a>
+						<a href="#">京网文[2017]1530-131号</a>
+						<br />
+						<a href="#">（京）网械平台备字（2018）第00005号</a>
+						<a href="#">互联网药品信息服务资格证 (京) -非经营性-2014-0090</a>
+						<a href="#">营业执照</a>
+						<a href="#">医疗器械公告</a>
+						<br />
+						<a href="#">增值电信业务许可证</a>
+						  网络食品经营备案（京）【2018】WLSPJYBAHF-12 
+						<a href="#">食品经营许可证</a>
+						<br />
+						违法和不良信息举报电话：185-0130-1238 
+						<a href="#">知识产权侵权投诉</a>
+						 本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+					</p>
+				</div>
+				<div class="lastBox-imgList"></div>
+			</div>
+			<div class="lastBox-sLogan"></div>
+		</div>
+	</body>
+</html>
