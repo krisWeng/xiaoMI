@@ -169,7 +169,7 @@ var child = [
 			$(function(){
 				$.each(list,function(index,data){
 					var sList=`<li class="list-item l">
-									<a href="#" class="list-p">
+									<a href="productList.html" class="list-p">
 										<span class="p-text">${data.Name}</span>
 									</a>
 									<div class="item-child">
