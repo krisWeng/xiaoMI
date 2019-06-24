@@ -65,7 +65,7 @@
 		<div id="TopNav" class="t">
 			<div id="TopNavC" class="c">
 				<ul class="TopNav-ul">
-					<li class="TopNav-ul-li"><a href="productList.html">小米手机</a></li>
+					<li class="TopNav-ul-li"><a href="#">小米手机</a></li>
 					<li class="TopNav-ul-li"><a href="#">红米</a></li>
 					<li class="TopNav-ul-li"><a href="#">电视</a></li>
 					<li class="TopNav-ul-li"><a href="#">笔记本</a></li>
@@ -254,14 +254,12 @@
 				var iNow = 0;
 				var timer;
 				for(var i=0; i < oPicBtn.length; i++){
-//					console.log(i);
 			   		bind(i);
 			   }
 			   	function bind(index){
 				 	oPicBtn[index].onclick = function(){
 				 		clearInterval(timer);
 				 		iNow = index;
-//				 		console.log('点击'+index);
 						changePic( index );
 						inter();
 				 	}
@@ -271,6 +269,8 @@
 			   			oBigPic[j].style.opacity = 0;
 			   			if(j==iNow){
 			   				oBigPic[iNow].style.opacity = 1;
+			   				circle[iNow].style.background = 'rgba(255,255,255,0.4)';
+							circle[iNow].style.borderColor = 'rgba(0,0,0,0.4)';
 			   			}
 			   		}
 			   	}
@@ -281,7 +281,6 @@
 			 			if(iNow>4){
 			 				iNow = 0;
 			 			}
-//			 			console.log( '自动'+iNow );
 			 			changePic()
 			 		},2000)
 			 	}
@@ -292,7 +291,6 @@
 			   		if(iNow<0){
 			   			iNow = oBigPic.length-1;
 			   		}
-//			   		console.log('前'+iNow);
 			   		changePic( iNow );
 			   		inter();
 			   	}
@@ -303,7 +301,6 @@
 			   		if(iNow>oBigPic.length-1){
 			   			iNow = 0;
 			   		}
-//			   		console.log('后'+iNow);
 			   		changePic( iNow );
 			   		inter();
 			   	}
@@ -331,15 +328,15 @@
 				<div class="box2-list">
 					<ul class="box2-list-ul">
 						<li class="box2-list-li">
-							<div class="timeTitle">20:00 场</div>
+							<div class="timeTitle">00：00场</div>
 							<img src="indexImg/liTime.png" class="box2-list-li-img" />
 							<div class="li-end">距离结束还有</div>
 							<div class="Cuntdown">
-								<div class="timeBox h">00</div>
+								<div class="timeBox h" id="hour">00</div>
 								<div class="dosh">:</div>
-								<div class="timeBox m">00</div>
+								<div class="timeBox m" id="min">00</div>
 								<div class="dosh">:</div>
-								<div class="timeBox" id="s">00</div>
+								<div class="timeBox" id="sec">00</div>
 							</div>
 						</li>
 					</ul>
@@ -349,18 +346,20 @@
 				</div>
 			</div>
 		</div>
-		
 		<script>
-			var i = 60;
-			var oTime = document.getElementById('s');
-			var timer = setInterval(function(){
-				i--;
-				var str = i
-				oTime.innerHTML = str;
-				if( i<=0 ){
-					clearInterval(timer);
-				}
-			},1000)
+			setInterval(function(){
+				var now = new Date().getTime();
+				//月份时0-11，不要忘记+1
+				var date = new Date(2019,5,25).getTime();
+				var time = date-now;
+				//1000毫秒=1秒 1分钟=60秒 1小时=60分钟 1天=24小时
+				var hours = parseInt(time/1000/60/60%24);
+				var minute = parseInt(time/1000/60%60);
+				var second = parseInt(time/1000%60);
+				hour.innerHTML = hours;
+				min.innerHTML = minute;
+				sec.innerHTML = second;
+			})
 		</script>
 		
 		<div id="boxImg" class="c">

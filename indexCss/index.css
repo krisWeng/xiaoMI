@@ -480,6 +480,10 @@
 .circle{
 	cursor: pointer;
 }
+.active{
+	background: rgba(255,255,255,0.4);
+	border-color: rgba(0,0,0,0.4);
+}
 #before{
 	width: 41px;
 	height: 69px;

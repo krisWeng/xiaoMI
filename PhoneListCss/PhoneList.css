@@ -11,10 +11,11 @@
 .phoneList-imgList{
 	height: 620px;
 	position: relative;
+	overflow: hidden;
 }
 /*-------------------------------------------------------*/
 .AllBox-HW{
-	width: 1349px;
+	/*width: 100%;*/
 	height: 620px;	
 }
 .phoneList-BigPic-boxList{
@@ -28,7 +29,7 @@
 }
 .phoneList-bigPic{
 	position: absolute;
-	left: 0;
+	left: -750px;
 	top: 0;
 	transition: 0.5s;
 }
@@ -37,7 +38,7 @@
 	height: 18px;
 	position: absolute;
 	top: 560px;
-	right: 670px;
+	right: 50%;
 	font-size: 12px;
 	text-align: right;
 }
@@ -51,7 +52,7 @@
 	height: 69px;
 	position: absolute;
 	top: 43%;
-	left: 70px;
+	left: -30px;
 	background: url(../indexImg/boult.png) no-repeat -84px 50%;
 }
 #phoneList-before:hover{
@@ -63,7 +64,7 @@
 	height: 69px;
 	position: absolute;
 	top: 43%;
-	right: 70px;
+	right: -50px;
 	background: url(../indexImg/boult.png) no-repeat -126px 50%;
 }
 #phoneList-next:hover{

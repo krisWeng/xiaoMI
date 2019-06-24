@@ -1,6 +1,6 @@
 var first = [
 				{
-					"title": "手机 电话卡",
+					"title": "手机 电话卡(点击)",
 					"icon": "&#xe61f;"
 				},
 				{
@@ -43,7 +43,7 @@ var first = [
 var second = [
 				{
 					"img": "indexImg/carousel-xiaomi3.png",
-					"Name": "红米 Pro6"
+					"Name": "红米 Pro6(点击)"
 				},
 				{
 					"img": "indexImg/carousel-xiaomi3.png",
@@ -103,7 +103,7 @@ var second = [
 
 var list = [
 				{
-					"Name": "小米手机"
+					"Name": "小米手机(点击)"
 				},
 				{
 					"Name": "红米"
