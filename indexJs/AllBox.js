@@ -929,6 +929,7 @@ $(function(){
 		var nowLeft = -iNow*296;
 		console.log( nowLeft );
 		$('.bookList').css('left',nowLeft);
+		$('.Bookcircle').eq(iNow).addClass('List-dot-act').siblings().removeClass('List-dot-act');
 	}
 	
 	//向前
@@ -969,6 +970,7 @@ $(function(){
 		var nowLeft = -iNow*296;
 		console.log( nowLeft );
 		$('.themeList').css('left',nowLeft);
+		$('.themecircle').eq(iNow).addClass('List-dot-act').siblings().removeClass('List-dot-act');
 	}
 	
 	//向前
@@ -1009,6 +1011,7 @@ $(function(){
 		var nowLeft = -iNow*296;
 		console.log( nowLeft );
 		$('.gameList').css('left',nowLeft);
+		$('.gamecircle').eq(iNow).addClass('List-dot-act').siblings().removeClass('List-dot-act');
 	}
 	
 	//向前
@@ -1049,6 +1052,7 @@ $(function(){
 		var nowLeft = -iNow*296;
 		console.log( nowLeft );
 		$('.appList').css('left',nowLeft);
+		$('.appcircle').eq(iNow).addClass('List-dot-act').siblings().removeClass('List-dot-act');	
 	}
 	
 	//向前

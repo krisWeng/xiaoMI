@@ -1318,36 +1318,41 @@ dt img{
 	height: 30px;
 	position: relative;
 }
-.con-List-circle{
+/*.con-List-circle{
 	width: 10px;
 	height: 10px;
 	padding: 10px;
 	margin: 0 2px;
 	position: absolute;
 	cursor: pointer;	
-}
+}*/
 .circleOne{
-	left: 100px;
+	left: 110px;
 }
 .circleTwo{
-	left: 130px;
+	left: 140px;
 }
 .circleThree{
-	left: 160px;
+	left: 170px;
 }
 .List-dot{
-	display: block;
-    width: 6px;
+	width: 6px;
     height: 6px;
+	display: block;
     border-radius: 6px;
-    text-align: left;
     text-indent: -9999em;
     overflow: hidden;
     background-color: #b0b0b0;
     transition: all .5s;
+    float: left;
+    position: absolute;
+	cursor: pointer;
 }
 .List-dot:hover{
 	background-color: black;
+}
+.List-dot-act{
+	background: black;
 }
 .conBox-btn{
     display: none;
