@@ -70,7 +70,7 @@ var second = [
 			$(function(){
 				$.each(first,function(index,data){
 					var sFirst=`<li class="first-level-item">
-									<a href="PhoneList.html" class="first-level-title">
+									<a href="html/PhoneList.html" class="first-level-title">
 										${data.title}
 										<span class="iconfont title-icon">${data.icon}</span>
 									</a>
@@ -86,7 +86,7 @@ var second = [
 				})
 				$.each(second,function(index,data){
 					var sSecond=`<li class="memu-comment-li">
-									<a href="productContent.html" class="memu-content">
+									<a href="html/productContent.html" class="memu-content">
 										<img src="${data.img}" alt="" class="contentImg" />
 										<span class="contentSpan">${data.Name}</span>
 									</a>	
@@ -169,7 +169,7 @@ var child = [
 			$(function(){
 				$.each(list,function(index,data){
 					var sList=`<li class="list-item l">
-									<a href="productList.html" class="list-p">
+									<a href="html/productList.html" class="list-p">
 										<span class="p-text">${data.Name}</span>
 									</a>
 									<div class="item-child">

@@ -1,28 +1,28 @@
 var goods = [
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 					
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				}
 			]
 
@@ -69,62 +69,62 @@ var goods = [
 				
 var lastBox = [
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 					
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 				},
 				{
-					"img": "productListImg/LastImgList01.jpg",
+					"img": "../productListImg/LastImgList01.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 				},
 				{
-					"img": "productListImg/LastImgList02.jpg",
+					"img": "../productListImg/LastImgList02.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 				},
 				{
-					"img": "productListImg/LastImgList02.jpg",
+					"img": "../productListImg/LastImgList02.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 				},
 				{
-					"img": "productListImg/LastImgList02.jpg",
+					"img": "../productListImg/LastImgList02.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 				},
 				{
-					"img": "productListImg/LastImgList02.jpg",
+					"img": "../productListImg/LastImgList02.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 				},
 				{
-					"img": "productListImg/LastImgList02.jpg",
+					"img": "../productListImg/LastImgList02.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
@@ -163,24 +163,28 @@ var lastBox = [
         		}
         		
         		//向前
-			 	$('.content-Box02-List-circlebtn-left').click( function(){
+			 	$('.dot-Now').click( function(){
 			 		clearInterval(timer);
 			 		iNow--;
 			 		if(iNow < 0){
 			 			iNow = 1;
 			 			$('.content-Box02-goods-ul').css('transition','left 0.5s');
+        				$('.dot-Now').addClass('dot');
+        				$('.dot-Next').removeClass('dot');
 			 		}
 			 		console.log('前'+iNow);
 			 		changePic();
 			 	})
 			 	
 			 	//向后
-			 	$('.content-Box02-List-circlebtn-right').click( function(){
+			 	$('.dot-Next').click( function(){
 			 		clearInterval(timer);
 			 		iNow++;
 			 		if(iNow > 1){
 			 			iNow = 0;
 			 			$('.content-Box02-goods-ul').css('transition','left 0.5s');
+			 			$('.dot-Next').addClass('dot');
+			 			$('.dot-Now').removeClass('dot');
 			 		}
 			 		console.log('后'+iNow);
 			 		changePic();

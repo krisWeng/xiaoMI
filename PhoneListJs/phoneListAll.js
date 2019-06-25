@@ -1,13 +1,13 @@
 var smallpicList = [
 				{
-					"img": "PhoneListImg/SmallPic01.jpg",
+					"img": "../PhoneListImg/SmallPic01.jpg",
 					"title": "小米8",
 					"desc": "全球首款双频GPS，骁龙845",
 					"b": "2299",
 					"del": "2699元"
 				},
 				{
-					"img": "PhoneListImg/SmallPic01.jpg",
+					"img": "../PhoneListImg/SmallPic01.jpg",
 					"title": "小米8",
 					"desc": "全球首款双频GPS，骁龙845",
 					"b": "2299",

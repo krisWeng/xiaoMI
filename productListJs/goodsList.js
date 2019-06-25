@@ -1,194 +1,194 @@
 var goods = [
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"				},
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"desc": "适用于 红米6",
 					"title": "红米6 高透软胶保护套",
 					"price": "19元",
-					"smallImg01": "productListImg/goodsListSmallImg01.jpg",
-					"smallImg02": "productListImg/goodsListSmallImg02.jpg"
+					"smallImg01": "../productListImg/goodsListSmallImg01.jpg",
+					"smallImg02": "../productListImg/goodsListSmallImg02.jpg"
 				}
 			]
 
@@ -235,62 +235,62 @@ var goods = [
 				
 var lastBox = [
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 					
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 				},
 				{
-					"img": "productListImg/goodsListBigImg01.jpg",
+					"img": "../productListImg/goodsListBigImg01.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 				},
 				{
-					"img": "productListImg/LastImgList01.jpg",
+					"img": "../productListImg/LastImgList01.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 				},
 				{
-					"img": "productListImg/LastImgList02.jpg",
+					"img": "../productListImg/LastImgList02.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 				},
 				{
-					"img": "productListImg/LastImgList02.jpg",
+					"img": "../productListImg/LastImgList02.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 				},
 				{
-					"img": "productListImg/LastImgList02.jpg",
+					"img": "../productListImg/LastImgList02.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 				},
 				{
-					"img": "productListImg/LastImgList02.jpg",
+					"img": "../productListImg/LastImgList02.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"
 				},
 				{
-					"img": "productListImg/LastImgList02.jpg",
+					"img": "../productListImg/LastImgList02.jpg",
 					"title": "黑鲨游戏手机 Helo 双滑轨保护壳",
 					"price": "69元",
 					"desc": "7人好评"

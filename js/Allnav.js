@@ -1,6 +1,6 @@
 var first = [
 				{
-					"title": "手机 电话卡",
+					"title": "手机 电话卡(点击)",
 					"icon": "&#xe61f;"
 				},
 				{
@@ -42,27 +42,27 @@ var first = [
 			]
 var second = [
 				{
-					"img": "indexImg/carousel-xiaomi3.png",
-					"Name": "红米 Pro6"
+					"img": "../indexImg/carousel-xiaomi3.png",
+					"Name": "红米 Pro6(点击)"
 				},
 				{
-					"img": "indexImg/carousel-xiaomi3.png",
+					"img": "../indexImg/carousel-xiaomi3.png",
 					"Name": "小米MIX 3"
 				},
 				{
-					"img": "indexImg/carousel-xiaomi3.png",
+					"img": "../indexImg/carousel-xiaomi3.png",
 					"Name": "小米MIX 3"
 				},
 				{
-					"img": "indexImg/carousel-xiaomi3.png",
+					"img": "../indexImg/carousel-xiaomi3.png",
 					"Name": "小米MIX 3"
 				},
 				{
-					"img": "indexImg/carousel-xiaomi3.png",
+					"img": "../indexImg/carousel-xiaomi3.png",
 					"Name": "小米MIX 3"
 				},
 				{
-					"img": "indexImg/carousel-xiaomi3.png",
+					"img": "../indexImg/carousel-xiaomi3.png",
 					"Name": "小米MIX 3"
 				}
 			]
@@ -103,7 +103,7 @@ var second = [
 
 var list = [
 				{
-					"Name": "小米手机"
+					"Name": "小米手机(点击)"
 				},
 				{
 					"Name": "红米"
@@ -137,31 +137,31 @@ var list = [
 var child = [
 				{
 					"flag": "新品",
-					"img": "indexImg/xiaomi-MIX 3.png",
+					"img": "../indexImg/xiaomi-MIX 3.png",
 					"Name": "小米MIX 3",
 					"price": "3299元起"
 				},
 				{
 					"flag": "新品",
-					"img": "indexImg/xiaomi-MIX 3.png",
+					"img": "../indexImg/xiaomi-MIX 3.png",
 					"Name": "小米MIX 3",
 					"price": "3299元起"
 				},
 				{
 					"flag": "新品",
-					"img": "indexImg/xiaomi-MIX 3.png",
+					"img": "../indexImg/xiaomi-MIX 3.png",
 					"Name": "小米MIX 3",
 					"price": "3299元起"
 				},
 				{
 					"flag": "新品",
-					"img": "indexImg/xiaomi-MIX 3.png",
+					"img": "../indexImg/xiaomi-MIX 3.png",
 					"Name": "小米MIX 3",
 					"price": "3299元起"
 				},
 				{
 					"flag": "新品",
-					"img": "indexImg/xiaomi-MIX 3.png",
+					"img": "../indexImg/xiaomi-MIX 3.png",
 					"Name": "小米MIX 3",
 					"price": "3299元起"
 				}
@@ -169,7 +169,7 @@ var child = [
 			$(function(){
 				$.each(list,function(index,data){
 					var sList=`<li class="list-item l">
-									<a href="#" class="list-p">
+									<a href="productList.html" class="list-p">
 										<span class="p-text">${data.Name}</span>
 									</a>
 									<div class="item-child">
@@ -307,27 +307,27 @@ $(function(){
 
 
 var content = [ {
-					"img": "indexImg/gifs.png",
+					"img": "../indexImg/gifs.png",
 					"name": "选购手机"
 				},
 				{
-					"img": "indexImg/gifs.png",
+					"img": "../indexImg/gifs.png",
 					"name": "选购手机"
 				},
 				{
-					"img": "indexImg/gifs.png",
+					"img": "../indexImg/gifs.png",
 					"name": "选购手机"
 				},
 				{
-					"img": "indexImg/gifs.png",
+					"img": "../indexImg/gifs.png",
 					"name": "选购手机"
 				},
 				{
-					"img": "indexImg/gifs.png",
+					"img": "../indexImg/gifs.png",
 					"name": "选购手机"
 				},
 				{
-					"img": "indexImg/gifs.png",
+					"img": "../indexImg/gifs.png",
 					"name": "选购手机"
 				}
 			]
@@ -348,13 +348,13 @@ var content = [ {
 			})
 			
 var img = [ {
-					"img": "indexImg/box201.jpg",
+					"img": "../indexImg/box201.jpg",
 				},
 				{
-					"img": "indexImg/box202.jpg",
+					"img": "../indexImg/box202.jpg",
 				},
 				{
-					"img": "indexImg/box203.jpg",
+					"img": "../indexImg/box203.jpg",
 				}
 			]
 			
